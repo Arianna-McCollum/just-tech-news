@@ -1,11 +1,16 @@
 {
-  "name": "hacker-news-clone",
+  "name": "just-tech-news",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "start": "node server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "test": "jest",
-    "seeds": "node seeds/index.js"
+    "seeds": "node seeds/index.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,5 +27,14 @@
   },
   "devDependencies": {
     "jest": "^25.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Electrolion/just-tech-news.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Electrolion/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/Electrolion/just-tech-news#readme"
 }
